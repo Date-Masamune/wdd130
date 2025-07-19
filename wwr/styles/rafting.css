@@ -44,8 +44,11 @@ article {
     padding: 8px;
 }
 
-.socialmedia a img {
+.socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia a img {
     width: 24px;
     height: 24px;
 }
@@ -78,7 +81,7 @@ h1 {
     border-radius: 8px;
 }
 
-hero article p {
+.hero article p {
     flex: 1;
     margin: 0;
     font-size: 1rem;
