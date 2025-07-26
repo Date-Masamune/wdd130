@@ -9,7 +9,9 @@
     <!-- Preconnects to speed up font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
     <title>About White Water Rafting</title>
 </head>
@@ -17,7 +19,7 @@
 <body>
     <header>
         <img src="images/rafting-logo.jpg" alt="Rafting Company Logo">
-        <nav>
+        <nav class="navigation">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
@@ -35,19 +37,44 @@
                     dolores odio ipsam doloremque molestias!</p>
             </article>
         </div>
-        <section>
+        <section class="history-section">
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus illo magnam accusantium at
-                temporibus eveniet repellat molestiae, beatae ullam asperiores quam nostrum, repellendus voluptatum
-                recusandae aliquam est voluptatem dolores.</p>
+            <div class="history">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ducimus illo magnam accusantium at
+                    temporibus eveniet repellat molestiae, beatae ullam asperiores quam nostrum, repellendus voluptatum
+                    recusandae aliquam est voluptatem dolores.</p>
+
+                <img src="images/history.jpg" alt="Rafting History">
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel pariatur consequatur provident,
+                    perferendis consectetur ab consequuntur, dolorum, cupiditate impedit nostrum delectus beatae quidem
+                    vitae saepe fuga minus quod. Iure, molestiae!</p>
+            </div>
         </section>
-        <section>
-            <h2>Adventure Awaits you!</h2>
-            <img src="images/rafting1.jpg" alt="Rafting 1">
-            <img src="images/rafting2.jpg" alt="Rafting 2">
-            <img src="images/rafting3.jpg" alt="Rafting 3">
-            <img src="images/rafting4.jpg" alt="Rafting 4">
-            <img src="images/rafting5.jpg" alt="Rafting 5">
+        <section class="adventure">
+            <h2>Adventure Awaits You!</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="images/rafting1.jpg" alt="Rafting 1">
+                    <figcaption> Big Bend</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting2.jpg" alt="Rafting 2">
+                    <figcaption>Big bend half day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting3.jpg" alt="Rafting 3">
+                    <figcaption>Half day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting4.jpg" alt="Rafting 4">
+                    <figcaption>Rumbling rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting5.jpg" alt="Rafting 5">
+                    <figcaption>Multi day adventure</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
