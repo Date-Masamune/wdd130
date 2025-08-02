@@ -41,8 +41,7 @@
         <div class="mao-wrapper">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3060.6650675301383!2d-106.5180!3d39.6050!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1690000000000"
-                width="300" height="250" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
+                width="300" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
         <section class="adventure">
@@ -61,46 +60,42 @@
                     <figcaption>Safety Instructor</figcaption>
                 </figure>
             </div>
-
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
                     <div class="contact-item">
-                        <label>
-                            Email:
-                            <input type="email" name="useremail" required />
-                        </label>
-                        <label>
-                            Name:
-                            <input type="text" name="name" required />
-                        </label>
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" required />
+
+                        <label for="username">Name:</label>
+                        <input type="text" id="username" name="name" required />
                     </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>Message</legend>
                     <div role="radiogroup" aria-label="Type of inquiry" class="radio-list">
-                        <label class="radio-item">
-                            <input type="radio" name="inquiry" value="general" checked />
+                        <label class="radio-item" for="inquiry-general">
+                            <input type="radio" id="inquiry-general" name="inquiry" value="general" checked />
                             <span>General inquiry</span>
                         </label>
 
-                        <label class="radio-item">
-                            <input type="radio" name="inquiry" value="reservation" />
+                        <label class="radio-item" for="inquiry-reservation">
+                            <input type="radio" id="inquiry-reservation" name="inquiry" value="reservation" />
                             <span>Reservation Inquiry</span>
                         </label>
 
-                        <label class="radio-item">
-                            <input type="radio" name="inquiry" value="suggestion" />
+                        <label class="radio-item" for="inquiry-suggestion">
+                            <input type="radio" id="inquiry-suggestion" name="inquiry" value="suggestion" />
                             <span>Website suggestion</span>
                         </label>
                     </div>
 
                     <label for="feedback">Message:</label>
-                    <textarea name="feedback" id="feedback" rows="4" placeholder="Your message here..."
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Your message here..."
                         required></textarea>
 
-                    <label class="subscribe-label">
+                    <label class="subscribe-label" for="subscribe">
                         <input type="checkbox" id="subscribe" name="subscribe" />
                         Please subscribe to the monthly newsletter
                     </label>
@@ -108,7 +103,9 @@
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
-        </section>
+
+
+
     </main>
 
     <footer>

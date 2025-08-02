@@ -4,11 +4,11 @@
     --accent-color1: #caffb9;
     --secondary-color: #5ea7bf;
     --body-font: 'Open Sans', sans-serif;
-    --body-weight: 400;
+    --body-weight-normal: 400;
     --body-weight-semibold: 600;
     --heading-font: 'Raleway', sans-serif;
-    --body-weight: 700;
-    --body-weight-semibold: 800;
+    --body-weight-bold: 700;
+    --body-weight-extrabold: 800;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
 
 body {
     font-family: var(--body-font);
+    font-weight: var(--body-weight-normal);
     color: #000;
 }
 
@@ -42,6 +43,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
+    font-weight: var(--body-weight-bold);
     color: #000;
 }
 
@@ -65,7 +67,7 @@ article {
 .navigation a {
     color: white;
     text-decoration: none;
-    margin: 1 1rem;
+    margin: 1rem 1rem;
     white-space: nowrap;
 }
 
@@ -209,7 +211,7 @@ textarea {
     margin: 8px 0;
 }
 
-.subscribe label {
+.subscribe-label {
     display: flex;
     align-items: center;
     gap: 8px;
