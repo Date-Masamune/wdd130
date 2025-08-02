@@ -163,3 +163,51 @@ footer .socialmedia a img {
     width: 30px;
     margin-left: 1rem;
 }
+
+.contact-item,
+.message-section {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.radio-list {
+    max-width: 400px;
+    margin: 8px 0 16px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    cursor: pointer;
+    user-select: none;
+    border-top: 1px solid #eee;
+}
+
+.radio-item:first-child {
+    border-top: none;
+}
+
+.radio-item input {
+    flex: none;
+}
+
+.label-text {
+    flex: 1;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    margin: 8px 0;
+}
+
+.subscribe label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
