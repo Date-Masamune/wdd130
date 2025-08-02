@@ -4,7 +4,11 @@
     --accent-color1: #caffb9;
     --secondary-color: #5ea7bf;
     --body-font: 'Open Sans', sans-serif;
+    --body-weight: 400;
+    --body-weight-semibold: 600;
     --heading-font: 'Raleway', sans-serif;
+    --body-weight: 700;
+    --body-weight-semibold: 800;
 }
 
 header {
@@ -210,4 +214,3 @@ textarea {
     align-items: center;
     gap: 8px;
 }
-
