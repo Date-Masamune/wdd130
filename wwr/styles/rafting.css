@@ -216,3 +216,136 @@ textarea {
     align-items: center;
     gap: 8px;
 }
+
+.grid-layout {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar-left main-content sidebar-right"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+}
+
+.header {
+    grid-area: header;
+
+}
+
+.sidebar-left {
+    grid-area: sidebar-left;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+.sidebar-right {
+    grid-area: sidebar-right;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+.main-content {
+    grid-area: main-content;
+    padding: 1rem;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-heading {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+}
+
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.adventure-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #9c92a3;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.bottom-layout {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f0f8ff;
+}
+
+.aside-left,
+.aside-right {
+    flex: 1;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.adventure .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.adventure .gallery figure {
+    flex: 1 1 300px;
+    max-width: 320px;
+    text-align: center;
+    margin: 0;
+}
+
+.adventure .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.adventure figcaption,
+.adventure figure p {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    color: #333;
+}
