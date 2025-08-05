@@ -13,7 +13,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent-color2);
+    color: white;
     display: grid;
     grid-template-columns: 450px 1fr;
     align-items: center;
