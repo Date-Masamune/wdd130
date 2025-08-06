@@ -11,6 +11,7 @@
     --body-weight-extrabold: 800;
 }
 
+
 header {
     background-color: var(--primary-color);
     color: white;
@@ -18,34 +19,42 @@ header {
     grid-template-columns: 450px 1fr;
     align-items: center;
 
-
 }
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 
 body {
     font-family: var(--body-font);
     font-weight: var(--body-weight-normal);
     color: #000;
+
 }
+
 
 header,
 main,
 footer {
     width: 840px;
     margin: 0;
+
 }
+
 
 h1,
 h2 {
     font-family: var(--heading-font);
     font-weight: var(--body-weight-bold);
     color: #000;
+
 }
+
 
 nav,
 p,
@@ -53,7 +62,9 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
 }
+
 
 .navigation {
     display: flex;
@@ -62,33 +73,45 @@ article {
     gap: 2rem;
     padding: 1rem;
     flex-wrap: nowrap;
+
 }
+
 
 .navigation a {
     color: white;
     text-decoration: none;
     margin: 1rem 1rem;
     white-space: nowrap;
+
 }
+
 
 .socialmedia a {
     text-decoration: none;
+
 }
+
 
 .socialmedia a img {
     width: 24px;
     height: 24px;
+
 }
+
 
 .hero {
     position: relative;
     text-align: center;
+
 }
+
 
 .hero img {
     width: 100%;
     height: auto;
+
 }
+
 
 .hero h1 {
     position: absolute;
@@ -101,17 +124,23 @@ article {
     background-color: var(--secondary-color);
     color: #fff;
     border-radius: 10px;
+
 }
+
 
 .hero article img {
     width: 150px;
     margin-left: 1rem;
+
 }
+
 
 .hero article p {
     margin: 0;
     font-size: 1rem
+
 }
+
 
 .hero article {
     display: flex;
@@ -121,7 +150,9 @@ article {
     margin: 1rem auto;
     max-width: 80%;
     box-shadow: 0 0 5px gray;
+
 }
+
 
 .history {
     display: grid;
@@ -129,13 +160,17 @@ article {
     gap: 1rem;
     align-items: center;
     padding: 1rem;
+
 }
+
 
 .history img {
     width: 100%;
     max-width: 200px;
     justify-self: center;
+
 }
+
 
 .adventure .gallery {
     display: flex;
@@ -143,18 +178,24 @@ article {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
+
 }
+
 
 .adventure figure {
     text-align: center;
     max-width: 150px;
+
 }
+
 
 .adventure img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+
 }
+
 
 footer {
     display: flex;
@@ -163,12 +204,16 @@ footer {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem 2rem;
+
 }
+
 
 footer .socialmedia a img {
     width: 30px;
     margin-left: 1rem;
+
 }
+
 
 .contact-item,
 .message-section {
@@ -176,12 +221,16 @@ footer .socialmedia a img {
     display: flex;
     flex-direction: column;
     gap: 8px;
+
 }
+
 
 .radio-list {
     max-width: 400px;
     margin: 8px 0 16px;
+
 }
+
 
 .radio-item {
     display: flex;
@@ -191,31 +240,43 @@ footer .socialmedia a img {
     cursor: pointer;
     user-select: none;
     border-top: 1px solid #eee;
+
 }
+
 
 .radio-item:first-child {
     border-top: none;
+
 }
+
 
 .radio-item input {
     flex: none;
+
 }
+
 
 .label-text {
     flex: 1;
+
 }
+
 
 textarea {
     width: 100%;
     resize: vertical;
     margin: 8px 0;
+
 }
+
 
 .subscribe-label {
     display: flex;
     align-items: center;
     gap: 8px;
+
 }
+
 
 .grid-layout {
     display: grid;
@@ -225,48 +286,69 @@ textarea {
         "footer footer footer";
     grid-template-columns: 1fr 2fr 1fr;
     gap: 1rem;
+
 }
+
 
 .header {
     grid-area: header;
 
+
 }
+
 
 .sidebar-left {
     grid-area: sidebar-left;
     background-color: #f0f0f0;
     padding: 1rem;
+
 }
+
 
 .sidebar-right {
     grid-area: sidebar-right;
     background-color: #f0f0f0;
     padding: 1rem;
+
 }
+
 
 .main-content {
     grid-area: main-content;
     padding: 1rem;
+    max-width: 840px;
+    margin: 0 auto;
+
 }
+
 
 .footer {
     grid-area: footer;
     text-align: center;
     color: white;
     padding: 1rem;
+
 }
 
 
-.hero {
+
+.index-hero {
     position: relative;
+    margin-bottom: 2rem;
+
 }
 
-.hero-image {
+
+.index-hero-image {
     width: 100%;
     height: auto;
+
+   
+
 }
 
-.hero-heading {
+
+.index-hero-heading {
     position: absolute;
     top: 30%;
     left: 10%;
@@ -274,19 +356,27 @@ textarea {
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0.5rem 1rem;
+
 }
+
 
 
 .adventure-grid {
     display: grid;
+    max-width: 840px;
+    margin: 0 auto;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
+
 }
+
 
 .adventure-item img {
     width: 100%;
     height: auto;
+
 }
+
 
 
 .cta-button {
@@ -297,14 +387,18 @@ textarea {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+
 }
+
 
 
 form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
 }
+
 
 
 .bottom-layout {
@@ -312,36 +406,47 @@ form {
     gap: 2rem;
     padding: 2rem;
     background-color: #f0f8ff;
+
 }
 
+
 .aside-left,
+
 .aside-right {
     flex: 1;
     padding: 1rem;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
+
 }
+
 
 .adventure .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+
 }
+
 
 .adventure .gallery figure {
     flex: 1 1 300px;
     max-width: 320px;
     text-align: center;
     margin: 0;
+
 }
+
 
 .adventure .gallery img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+
 }
+
 
 .adventure figcaption,
 .adventure figure p {
