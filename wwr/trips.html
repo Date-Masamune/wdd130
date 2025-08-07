@@ -8,26 +8,28 @@
   <meta name="author" content="Jacob Gishwiller" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Open+Sans:wght@400;600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Open+Sans:wght@400;600&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="styles/rafting.css" />
   <title>White Water Rafting Trips</title>
 </head>
 
 <body>
-  <header>
-    <img src="images/rafting-logo.jpg" alt="Rafting Company Logo" />
-    <nav class="navigation">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <img src="images/rafting-logo.jpg" alt="Rafting Company Logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Main Content Area -->
-  <main class="top-main">
+  <main class="main-content">
     <div class="hero">
       <img src="images/hero-img.jpg" alt="Main Image" />
       <h1>White Water Rafting Company</h1>
@@ -118,7 +120,6 @@
     </section>
   </main>
 
-  <!-- Mixed Layout Section: Asides under Main -->
   <div class="bottom-layout">
     <aside class="aside-left">
       <h3>More About Our Guides</h3>
@@ -138,19 +139,15 @@
     </aside>
   </div>
 
-  <footer>
-    <p>© 2025, White Water Rafting, Jacob Gishwiller</p>
-    <nav class="socialmedia">
-      <a href="https://www.facebook.com/">
-        <img src="images/facebook.svg" alt="Link to Facebook" />
-      </a>
-      <a href="https://x.com">
-        <img src="images/x.svg" alt="Link to X" />
-      </a>
-      <a href="https://www.instagram.com/">
-        <img src="images/instagram.svg" alt="Link to Instagram" />
-      </a>
-    </nav>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 White Water Rafting, Jacob Gishwiller</p>
+      <nav class="socialmedia">
+        <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook" /></a>
+        <a href="https://x.com"><img src="images/x.svg" alt="X" /></a>
+        <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram" /></a>
+      </nav>
+    </div>
   </footer>
 </body>
 
